@@ -108,6 +108,14 @@ ul{
 #about-us {
     padding: 100px 0;
 }
+
+.about_heading .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 300px;
+    margin: auto;
+}
+
 .about_heading {
     text-align: center;
 }
@@ -127,17 +135,51 @@ ul{
     height: auto;
     border-radius: 15px;
 }
-/* best selling area */
-.heading {
-    text-align: center;
-}
-.about_heading .bar-img {
+
+/* usps area */
+#usps .bar-img {
     border-top: 4px solid var(--main-color);
     height: 100px;
     max-width: 300px;
     margin: auto;
 }
+#usps .heading p {
+	max-width: 648px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.usps_image_with_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-bottom: 20px;
+}
+/* info_cta area */
+.info_cta{
+    padding: 100px 0;
+}
+.info_cta .heading p {
+    max-width: 648px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.info_cta .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 400px;
+    margin: auto;
+}
+/* best selling area */
+.heading {
+    text-align: center;
+}
 
+#best-selling .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 610px;
+    margin: auto;
+}
 #best-selling .bar-img {
     border-top: 4px solid var(--main-color);
     height: 100px;
@@ -823,6 +865,12 @@ color: #FFFFFF;
     }
     .heading h2 {
         font-size: 30px;
+    }
+
+    /* usps section */
+    .usps_image_with_text {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
