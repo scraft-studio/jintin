@@ -315,6 +315,7 @@ ul{
     border-radius: 40px;
     padding: 20px;
     margin-bottom: 46px;
+    text-align: center;
 }
 .boxContent p {
     font-family: Rubik;
@@ -323,6 +324,7 @@ ul{
     font-size: 20px;
     line-height: 24px;
     color: #000000;
+    margin: auto;
 }
 
 .oursercive .slick-prev, .oursercive .slick-next {
