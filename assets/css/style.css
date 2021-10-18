@@ -41,16 +41,23 @@ ul{
 	z-index: 999999;
     padding: 10px 0;
 }
+.notice_bar_wrapper {
+	display: grid;
+	grid-template-columns: 80% 20%;
+	justify-content: center;
+	align-items: center;
+}
 .notice_content p {
 	margin: 0;
 }
 .notice_button a {
 	text-decoration: navajowhite;
 	border: 1px solid #fff;
-	padding: 5px;
+	padding: 5px 10px;
 	border-radius: 10px;
 	color: #fff;
 	text-transform: capitalize;
+    margin-left: auto;
 }
 /* header area */
 .navbar-nav.menu-bar {
@@ -985,6 +992,12 @@ color: #FFFFFF;
 
 
 @media only screen and (max-width: 517px){
+    .notice_bar{
+        display: none;
+    }
+    #main-menu{
+        padding: .5rem 0;
+    }
     .testimonialsSlider2{
         max-width: 320px;
         margin: auto;
