@@ -136,6 +136,14 @@ ul{
 	border-radius: 15px;
 	height: 100%;
 }
+.banner_img_item {
+	position: relative;
+}
+.open_gift_card {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+}
 .gift_card_img {
 	width: 100%;
 	background: #fff;
