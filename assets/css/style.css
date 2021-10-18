@@ -32,6 +32,26 @@ ul{
     margin: 0;
     list-style: none;
 }
+/* notice bar area */
+.notice_bar {
+	background-color: #EDD060;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+    padding: 10px 0;
+}
+.notice_content p {
+	margin: 0;
+}
+.notice_button a {
+	text-decoration: navajowhite;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 10px;
+	color: #fff;
+	text-transform: capitalize;
+}
 /* header area */
 .navbar-nav.menu-bar {
     margin-left: auto;
@@ -60,7 +80,7 @@ ul{
     background: rgba(42, 42, 42, 0.5);
         background-color: rgba(42, 42, 42, 0.5);
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.2);
-    padding: 5px 0;
+    padding-top: 50px;
 }
 #banner {
     height: 100%;
