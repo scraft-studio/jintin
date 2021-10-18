@@ -138,11 +138,18 @@ ul{
 }
 .banner_img_item {
 	position: relative;
+    transition: 2s;
 }
+
 .open_gift_card {
 	position: absolute;
-	bottom: 30px;
+	bottom: 5%;
 	width: 100%;
+    display: none;
+}
+.banner_img_item:hover .open_gift_card{
+    display: block;
+    transition: 2s;
 }
 .gift_card_img {
 	width: 100%;
@@ -164,10 +171,11 @@ ul{
 	align-items: center;
 	justify-content: center;
 }
-.gift_card_offer h3 {
-	margin: 0;
+.gift_card_offer a {
+    text-decoration: none;
 	font-family: Rubik;
 	color: #fff;
+    font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
