@@ -71,6 +71,7 @@ ul{
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    padding-top: 50px;
 }
 .navbar-nav.menu-bar li a{
     color: var(--main-color)!important;
