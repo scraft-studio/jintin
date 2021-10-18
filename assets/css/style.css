@@ -131,9 +131,10 @@ ul{
     grid-gap: 40px;
 }
 .banner_img_item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
+	max-width: 100%;
+	max-height: 600px;
+	border-radius: 15px;
+	height: 100%;
 }
 
 /* usps area */
