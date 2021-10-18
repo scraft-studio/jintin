@@ -162,7 +162,7 @@ ul{
     padding: 100px 0;
 }
 .info_cta .heading p {
-    max-width: 648px;
+    /* max-width: 648px; */
     margin: auto;
     margin-bottom: 50px;
 }
