@@ -147,7 +147,7 @@ ul{
     text-align: center;
 }
 .about_heading p {
-    max-width: 648px;
+    /* max-width: 648px; */
     margin: auto;
     margin-bottom: 50px;
 }
