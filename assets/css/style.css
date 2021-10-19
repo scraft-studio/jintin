@@ -915,6 +915,20 @@ color: #FFFFFF;
 	margin: auto;
 }
 
+/* covid page */
+#covid-info {
+    padding: 100px 0;
+}
+#our-store .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 293px;
+    margin: auto;
+}
+#our-store p {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
   
 
