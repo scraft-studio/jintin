@@ -1050,4 +1050,13 @@ color: #FFFFFF;
     .gift_card_offer a {
         font-size: 10px;
     }
+    #reach-us .heading{
+        padding-bottom: 0;
+    }
+    .reach_content {
+        padding-bottom: 30px;
+    }
+    #reach-us{
+        padding-bottom: 50px;
+    }
 }
