@@ -1,5 +1,15 @@
 (function($){
 
+    $(window).on("scroll", function() {
+      if($(window).scrollTop() > 50) {
+          $("#main-menu").addClass("sticky");
+      } else {
+        $("#main-menu").removeClass("sticky");
+      }
+    });
+
+
+
     $('.testimonialsSlider').slick({
         dots: true,
         autoplay: true,
