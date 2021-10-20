@@ -17,7 +17,54 @@
         
       });
 
-     
+      // about us image slider
+      $('.banner-img').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow:false,
+        nextArrow:false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+
+      // best selling section
+      $('.best_selling_img').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow:false,
+        nextArrow:false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+
 })(jQuery);
 
 
