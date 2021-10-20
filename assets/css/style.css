@@ -567,7 +567,7 @@ ul{
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 170.69%;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -1069,7 +1069,7 @@ color: #FFFFFF;
         line-height: 35px;
     }
     .gift_card_offer a {
-        font-size: 10px;
+        font-size: 14px;
     }
     #reach-us .heading{
         padding-bottom: 0;
@@ -1079,5 +1079,8 @@ color: #FFFFFF;
     }
     #reach-us{
         padding-bottom: 50px;
+    }
+    .banner-content h1{
+        font-size: 30px;
     }
 }
