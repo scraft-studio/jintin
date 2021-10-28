@@ -220,7 +220,7 @@ ul{
 #usps .bar-img {
     border-top: 4px solid var(--main-color);
     height: 100px;
-    max-width: 300px;
+    max-width: 800px;
     margin: auto;
 }
 #usps .heading p {
@@ -247,7 +247,7 @@ ul{
 .info_cta .bar-img {
     border-top: 4px solid var(--main-color);
     height: 100px;
-    max-width: 400px;
+    max-width: 800px;
     margin: auto;
 }
 /* best selling area */
@@ -255,16 +255,11 @@ ul{
     text-align: center;
 }
 
+
 #best-selling .bar-img {
     border-top: 4px solid var(--main-color);
     height: 100px;
-    max-width: 610px;
-    margin: auto;
-}
-#best-selling .bar-img {
-    border-top: 4px solid var(--main-color);
-    height: 100px;
-    max-width: 610px;
+    max-width: 700px;
     margin: auto;
 }
 #best-selling .heading p {
