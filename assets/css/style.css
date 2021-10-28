@@ -440,14 +440,14 @@ ul{
     max-width: 777px;
 }
 /* OUR SERVICES section area */
-#ourServices {
+#contactUs {
     padding: 100px 0;
 }
 
-#ourServices .bar-img {
+#contactUs .bar-img {
     border-top: 4px solid var(--main-color);
     height: 100px;
-    max-width: 293px;
+    max-width: 320px;
     margin: auto;
 }
 .servicesBoxImag img {
