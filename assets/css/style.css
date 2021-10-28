@@ -111,6 +111,7 @@ ul{
     letter-spacing: 0.7em;
     color: #FFFFFF;
     margin-bottom: 35px;
+    text-transform: uppercase;
 }
 
 .banner-content p {
