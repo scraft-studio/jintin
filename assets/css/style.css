@@ -267,6 +267,9 @@ ul{
     max-width: 610px;
     margin: auto;
 }
+#best-selling .heading p {
+	margin-bottom: 50px;
+}
 
 
 .best_selling_img .slick-track{
